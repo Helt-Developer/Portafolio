@@ -1,0 +1,20 @@
+.menu__list{
+    display: flex;
+}
+
+.menu__list__item{
+    margin-right: 1.5rem;
+}
+
+@media screen and (max-width:768px){
+    .menu__list{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .menu__list__item__contacto{
+        display: none;
+    }
+}
+
