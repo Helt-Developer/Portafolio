@@ -1,0 +1,11 @@
+.title__network{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.title__network__item{
+    margin-right: 2rem;
+}
+
+

@@ -1,0 +1,41 @@
+.title__network__item a{
+    display: flex;
+    position: relative;
+    padding: 0.2em 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--color-de-letras);
+    transition: 0.5s;
+}
+
+.title__network__item a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background: linear-gradient(to right, #009fff, #ec2f4b);;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+}
+
+.title__network__item a:hover::after,
+.title__network__item a:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+
+
+/* Creamos variables para el efecto 
+
+duracion .2s
+distancia 8px
+0.175, 0.885, 0.320, 1.275
+*/
+
+
+
+
+

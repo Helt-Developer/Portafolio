@@ -1,0 +1,7 @@
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2rem 2rem 0 2rem;
+    align-items: center;
+    justify-content: space-between;
+}

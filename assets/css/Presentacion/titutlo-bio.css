@@ -1,0 +1,13 @@
+.title__bio{
+    color: var(--color-de-letras);
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+.title__subsection{
+    color: var(--color-de-letras);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+}
