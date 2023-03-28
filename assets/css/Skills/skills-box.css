@@ -1,0 +1,19 @@
+.skills__line{
+    display: flex;
+    justify-content: center;
+}
+
+.skills__box{
+    width: 176px;
+    height: 174px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background:#FFFFFF;
+}
+
+.skills__box ul{
+    padding-left: 16px;
+}

@@ -10,6 +10,7 @@ coloque nas sessões indicadas*/
    --color-de-fondo: #F5F5F5;
    --color-de-link: #000;
    --color-de-letras: #464646;
+   --color-sobremi-formacion: #EAF2FD;
 }
 
 body {
@@ -19,6 +20,7 @@ body {
     margin: 0 2rem;
     padding: 0;
     line-height: 1;
+    color: var(--color-de-letras);
 }
 ol, ul,li {
     list-style: none;

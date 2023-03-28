@@ -1,0 +1,18 @@
+.about__container{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: calc(100% - 40%);
+}
+
+.about__title{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.about__paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
