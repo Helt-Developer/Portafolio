@@ -1,0 +1,11 @@
+.academic__courses{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.academic__courses__box{
+    width: 350px;
+    height: 286px;
+    padding: 16px;
+}

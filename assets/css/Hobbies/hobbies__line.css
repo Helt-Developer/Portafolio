@@ -1,22 +1,25 @@
-.skills__line{
+.hobbies__line{
     display: flex;
     justify-content: center;
 }
 
-.skills__box{
+.hobbies__box{
     width: 176px;
     height: 174px;
     margin-right: 16px;
-    display: flex;
-    flex-direction: column-reverse;
-    
-    background:#FFFFFF;
+    background: #FFFFFF;
 }
 
-.skills__box ul{
+.hobbies__box{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.hobbies__box ul{
     padding-left: 16px;
 }
 
-.skills__img{
+.hobbies__img{
     margin-bottom: 0.5rem;
 }
