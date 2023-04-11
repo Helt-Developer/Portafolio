@@ -9,3 +9,18 @@
     height: 286px;
     padding: 16px;
 }
+
+.academic__courses__item__img img{
+    width: 245px;
+    height: 120px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.academic__courses__item__title h4{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26px;
+    color: var(--color-de-letras);
+    margin: 1rem 0;
+}
