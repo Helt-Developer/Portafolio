@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="./assets/css/Academico/academic_courses.css">
     <link rel="stylesheet" href="./assets/css/Experiencia_Profesional/Experiencia.css">
     <link rel="stylesheet" href="./assets/css/Contacto/Contacto.css">
+    <link rel="stylesheet" href="./assets/css/Formulario/input-error.css">
     <title> Mi Portafolio</title>
 </head>
 <body>
@@ -235,21 +236,31 @@
      <section class="formcontato" id="contacto">
         <div  class="formcontato__contacto">
             <div class="formcontato--esquerda">
-                <img class="formcontato__img" src="./assets/img/contact_image.png">
+                <img class="formcontato__img" src="./assets/img/contact_image.png" alt="contacto">
             </div>
             <div class="formcontato__text">
                 <h2 class="formcontato__title">Contacto</h2>
                 <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                 <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
-                <form class="formcontato__form" name="form">
-                    <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                    <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                    <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
+                <form class="formcontato__form" name="form" >
+                    <div class="formcontato__div">
+                        <input class="formcontato__input" type="text" name="nombre" id="input" placeholder="Nombre" required data-nombre>
+                        <label for="nombre">Nombre</label>
+                    </div>
+                    <div class="formcontato__div">
+                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail" data-email>
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="formcontato__div">
+                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto" data-asunto>
+                        <label for="asunto">Assunto</label>
+                    </div>
                     <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
-                    <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                    <button type="submit" class="formcontacto__boton" id="btn__enviar">Enviar mensaje</button>
                 </form>
             </div>
         </div>
     </section>
     </div>
+    <script src="./assets/js/index.js"></script>
 </body>

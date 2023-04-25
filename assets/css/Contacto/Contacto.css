@@ -1,6 +1,107 @@
 .formcontato{
-    width: 100%;
     height: 788px;
     background-color: #EAF2FD;
     padding: 64px;
+}
+
+.formcontato__contacto{
+    display: flex;
+}
+
+.formcontato--esquerda{
+    display: flex;
+}
+
+.formcontato__text{
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.formcontato__text h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.formcontato__text h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+}
+
+ .formcontato__input{
+    margin-bottom: 30px;
+    padding-bottom: 2px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    width: 100%;
+    padding-top: 6px;
+
+}
+
+.formcontato__div{
+    position: relative;
+    box-sizing: border-box;
+}
+
+.formcontato__div label{
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    color: #A2A2A2;
+    transform-origin: 0 0;
+    transition: transform 0.2s ease-in-out;
+}
+
+.formcontato__input:focus + label, .formcontato__input:not(:placeholder-shown) + label {
+    transform: translateY(-12px) scale(0.8);
+    color: #2A7AE4;
+    font-weight: 400;
+}
+
+.formcontato__input::placeholder{
+    color: transparent;
+}
+
+.formcontato__form .formcontato__textarea{
+    border: none;
+    border-radius: 4px;
+    resize: none;
+    outline: none;
+    margin-bottom: 30px;
+    padding-bottom: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Raleway';
+} 
+
+.formcontato__input:hover{
+    border-bottom: 2px solid #2A7AE4;
+}
+
+.formcontato__textarea:hover{
+    border-bottom: 2px solid #2A7AE4;
+}
+
+.formcontacto__boton{
+    width: 25%;
+    padding: 16px;
+    background: #2A7AE4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
