@@ -62,10 +62,10 @@
                     <h2 class="title__bio">Hola, mi nombre es Helter Conforme Velez, y construyo páginas web</h2>
                     <h3 class="title__subsection">Soy estudiante de desarrollo web FrontEnd en el programa Oracle One en Alura Latam.</h3>
                     <ul class="title__network">
-                        <li class="title__network__item"><a href="">Github<img src="./assets/img/Referencias/icons8-github (1).svg" alt="Github"></a></li>
-                        <li class="title__network__item"><a href="" class="title__network__item__linkedIn">LinkedIn<img src="./assets/img/Referencias/icons8-linkedin.svg" ></a></li>
-                        <li class="title__network__item"><a href="">Instagram<img src="./assets/img/Referencias/icons8-instagram.svg" ></a></li>
-                        <li class="title__network__item"><a href="">Curriculum<img src="./assets/img/Referencias/icons8-analizar-el-curriculum-vitae-16.png" ></a></li>
+                        <li class="title__network__item"><a href="https://github.com/Helt-Developer">Github<img src="./assets/img/Referencias/icons8-github (1).svg" alt="Github"></a></li>
+                        <li class="title__network__item"><a href="https://www.linkedin.com/in/helter-conforme-velez-59848218b/" class="title__network__item__linkedIn">LinkedIn<img src="./assets/img/Referencias/icons8-linkedin.svg" ></a></li>
+                        <li class="title__network__item"><a href="https://www.instagram.com/heltervelez_/">Instagram<img src="./assets/img/Referencias/icons8-instagram.svg" ></a></li>
+                        <li class="title__network__item"><a href="https://1drv.ms/b/s!AhLTeoFIX5QP1kQANauES86H9z3l?e=ciqtYq">Curriculum<img src="./assets/img/Referencias/icons8-analizar-el-curriculum-vitae-16.png" ></a></li>
                     </ul>
                 </div>
             </div>
@@ -244,18 +244,19 @@
                 <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
                 <form class="formcontato__form" name="form" >
                     <div class="formcontato__div">
-                        <input class="formcontato__input" type="text" name="nombre" id="input" placeholder="Nombre" required data-nombre>
+                        <input class="formcontato__input formcontato__nombre" type="text" name="nombre" id="input" placeholder="Nombre" required data-nombre maxlength="50">
                         <label for="nombre">Nombre</label>
+                        
                     </div>
                     <div class="formcontato__div">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail" data-email>
+                        <input class="formcontato__input formcontato__email" type="email" name="email" placeholder="E-mail" data-email>
                         <label for="email">E-mail</label>
                     </div>
                     <div class="formcontato__div">
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto" data-asunto>
+                        <input class="formcontato__input formcontato__asunto" type="text" name="asunto" placeholder="Assunto" data-asunto maxlength="50">
                         <label for="asunto">Assunto</label>
                     </div>
-                    <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                    <textarea class="formcontato__textarea formcontato__mensaje " rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" maxlength="300"></textarea>
                     <button type="submit" class="formcontacto__boton" id="btn__enviar">Enviar mensaje</button>
                 </form>
             </div>
