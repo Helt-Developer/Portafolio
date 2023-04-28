@@ -6,15 +6,23 @@
     margin-right: 1.5rem;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:1024px){
     .menu__list{
         display: none;
     }
+
+    .menu__list__item__contacto{
+        display: block;
+    }
+
+    body{
+        width: 100%;
+    }
 }
 
-@media screen and (min-width: 768px){
+/* @media screen and (min-width: 768px){
     .menu__list__item__contacto{
         display: none;
     }
-}
+} */
 

@@ -5,3 +5,12 @@
     font-weight: 700;
     line-height: 38px;
 }
+
+@media screen and (max-width: 1024px){
+    .skills__title{
+        font-size: 22px;
+        line-height: 26px;
+        margin: 0;
+        padding-top: 1rem;
+    }
+}

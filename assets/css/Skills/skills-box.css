@@ -20,3 +20,19 @@
 .skills__img{
     margin-bottom: 0.5rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .skills__line{
+        flex-wrap: wrap;
+    }
+
+    .skills__box{
+        width: 156px;
+        height: 118px;
+        margin-right: 0;
+    }
+
+    .skills__box ul{
+        margin: 0;
+    }
+}

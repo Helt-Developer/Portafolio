@@ -8,4 +8,17 @@
     margin-right: 2rem;
 }
 
+@media screen and (max-width: 1024px){
 
+    .title__network{
+        justify-content: space-evenly;
+    }
+
+    .title__network__item{
+        margin-right: 0;
+    }
+
+    .title__network__item a img{
+        display: none;
+    }
+}
