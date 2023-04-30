@@ -59,3 +59,22 @@
     margin-left: 16px;
     
 }
+
+@media screen and (max-width: 1024px){
+    .experience__section__title{
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .experience__box{
+        flex-direction: column;
+    }
+
+    .experience__box img {
+        width: 100%;
+    }
+
+    .experience__info-container{
+        width: 100%;
+    }
+}

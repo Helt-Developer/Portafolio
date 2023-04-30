@@ -1,0 +1,14 @@
+@media screen and (max-width: 1024px){
+    .formcontato{
+        padding: 0;
+    }
+    
+    .formcontato__contacto{
+        width: 100%;
+        flex-direction: column;
+    }
+   
+    .formcontato--esquerda img{
+        display: none;
+    }
+}

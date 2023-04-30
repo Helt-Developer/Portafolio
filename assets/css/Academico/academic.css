@@ -1,6 +1,5 @@
 .academic{
     background: var(--color-celeste-claro);
-    margin-top: 4rem;
 }
 
 .academic__title{
@@ -9,4 +8,11 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px){
+    .academic__title{
+        font-size: 22px;
+    }
 }

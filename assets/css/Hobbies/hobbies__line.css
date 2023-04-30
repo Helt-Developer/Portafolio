@@ -17,9 +17,29 @@
 }
 
 .hobbies__box ul{
-    padding-left: 16px;
+    padding: 16px;
+    margin: 0;
+    
 }
 
 .hobbies__img{
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 1024px){
+    .hobbies__line{
+        flex-wrap: wrap;
+    }
+
+    .hobbies__box{
+    margin-right: 0;
+    width: 156px;
+    height: 118px
+    }
+
+    .hobbies__box ul{
+        padding: 1rem 16px;
+    }
+
+   
 }

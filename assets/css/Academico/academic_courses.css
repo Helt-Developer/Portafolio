@@ -10,6 +10,10 @@
     padding: 16px;
 }
 
+.academic__courses__list{
+    margin: 0;
+}
+
 .academic__courses__item__img img{
     width: 245px;
     height: 120px;
@@ -23,4 +27,11 @@
     line-height: 26px;
     color: var(--color-de-letras);
     margin: 1rem 0;
+}
+
+@media screen and (max-width:1024px){
+    .academic__courses{
+        flex-wrap: wrap;
+        width: 100%;
+    }
 }
